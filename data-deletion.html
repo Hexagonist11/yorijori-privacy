@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>요리조리 데이터 삭제 요청 | Yorijori Data Deletion</title>
+<meta name="description" content="요리조리(Yorijori)에 저장된 계정·매장·리뷰 데이터를 지워 달라고 요청하는 방법">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --line: #e3e3e8; --accent: #b4461f; --box: #f6f5f2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151516; --fg: #ececec; --muted: #a8a8ad; --line: #2e2e33; --accent: #f08a5d; --box: #1f1f22; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         word-break: keep-all; overflow-wrap: anywhere;
+         font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 80px; }
+  h1 { font-size: 1.7rem; line-height: 1.3; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  p, li { margin: 6px 0; }
+  ol, ul { padding-left: 1.3em; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: .92rem; }
+  .box { background: var(--box); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 16px 0; }
+  code { background: var(--box); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: .92em; overflow-wrap: anywhere; }
+  nav { font-size: .92rem; margin: 12px 0 0; }
+  nav a { margin-right: 12px; }
+  .en { margin-top: 56px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>데이터 삭제 요청 방법</h1>
+  <p class="meta">요리조리(Yorijori) · 시행일 2026년 9월 28일</p>
+  <nav><a href="index.html">개인정보처리방침</a><a href="#en">English</a></nav>
+
+  <div class="box">
+    이메일 한 통이면 됩니다. <a href="mailto:Hexagonist11@gmail.com?subject=%5B%EC%9A%94%EB%A6%AC%EC%A1%B0%EB%A6%AC%5D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">Hexagonist11@gmail.com</a>으로 보내 주시면
+    <b>48시간 안에</b> 가이드에서 숨기고, 저장된 원본과 분석 결과를 지운 뒤 회신합니다.
+  </div>
+
+  <h2>1. 보내 주실 내용</h2>
+  <ol>
+    <li>제목: <code>[요리조리] 데이터 삭제 요청</code></li>
+    <li>지울 대상 중 하나 이상
+      <ul>
+        <li>인스타그램 계정 아이디(예: <code>@example_cafe</code>) 또는 게시물 링크</li>
+        <li>네이버 플레이스 매장 이름과 주소, 또는 매장 링크</li>
+        <li>리뷰·블로그 글의 링크</li>
+      </ul>
+    </li>
+    <li>계정 주인이나 매장 관계자임을 알 수 있는 정보(선택). 확인이 필요하면 해당 계정의 다이렉트 메시지로 한 번 확인을 부탁드릴 수 있습니다.</li>
+  </ol>
+
+  <h2>2. 처리 순서</h2>
+  <ol>
+    <li>요청을 받은 즉시 삭제 요청 목록에 올리고, 48시간 안에 가이드 화면에서 숨깁니다.</li>
+    <li>데이터베이스와 파일 저장소, 운영자 컴퓨터에 있는 원본(게시물 정보, 이미지·영상 파일, 댓글·리뷰 텍스트)과 그로부터 나온 분석 결과를 지웁니다.</li>
+    <li>이후 수집에서도 제외되도록 제외 목록에 남깁니다. 이 목록에는 계정 아이디나 매장 링크만 적습니다.</li>
+    <li>처리 결과를 이메일로 알려 드립니다.</li>
+  </ol>
+
+  <h2>3. 참고</h2>
+  <ul>
+    <li>요리조리는 페이스북 로그인으로 이용자의 정보를 받지 않습니다. 메타 앱은 운영자 자신의 계정으로만 공개 프로페셔널 계정 정보를 조회하는 데 씁니다.</li>
+    <li>인스타그램 계정이 비공개로 바뀌거나 삭제된 것을 확인하면 요청이 없어도 해당 데이터를 지웁니다.</li>
+    <li>자세한 내용은 <a href="index.html">개인정보처리방침</a>을 참고해 주세요.</li>
+  </ul>
+
+  <section class="en" id="en" lang="en">
+    <h1>Data deletion instructions</h1>
+    <p class="meta">Yorijori · Effective September 28, 2026</p>
+
+    <div class="box">
+      Email <a href="mailto:Hexagonist11@gmail.com?subject=%5BYorijori%5D%20Data%20deletion%20request">Hexagonist11@gmail.com</a>.
+      Within <b>48 hours</b> we hide the content from the guide, delete the stored originals and everything derived from them, and reply to you.
+    </div>
+
+    <h2>1. What to include</h2>
+    <ol>
+      <li>Subject: <code>[Yorijori] Data deletion request</code></li>
+      <li>At least one of: an Instagram username (e.g. <code>@example_cafe</code>) or post link; a Naver Place store name and address or link; a review or blog post link.</li>
+      <li>Optionally, something showing you own or run the account or store. If needed, we may ask you to confirm once by direct message from that account.</li>
+    </ol>
+
+    <h2>2. What we do</h2>
+    <ol>
+      <li>Add the request to our deletion list and hide the content from the guide within 48 hours.</li>
+      <li>Delete the originals (post data, image and video files, comment and review text) and any analysis results derived from them from our database, file storage and the operator's computer.</li>
+      <li>Keep only the username or store link on an exclusion list so it is not collected again.</li>
+      <li>Email you when it is done.</li>
+    </ol>
+
+    <h2>3. Notes</h2>
+    <ul>
+      <li>Yorijori does not collect user data through Facebook Login. Our Meta app is used only with the operator's own account to look up public professional accounts.</li>
+      <li>If we learn an Instagram account became private or was deleted, we delete its data without a request.</li>
+      <li>See the <a href="index.html#en">Privacy Policy</a> for details.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
